@@ -72,7 +72,7 @@ outlines, then normalizes coordinates to 0-1 range.
 
 ## Limitations
 
-- **Accuracy**: mAP50 of ~0.xx reflects limited training. More epochs 
+- **Accuracy**: mAP50 of ~0.238 reflects limited training. More epochs 
   and data augmentation would improve detection quality
 - **Portion estimation**: pixel area assumes an overhead view of a flat 
   plate. Stacked foods or angled shots will give inaccurate estimates
@@ -83,6 +83,9 @@ outlines, then normalizes coordinates to 0-1 range.
   Performance on Western foods may be lower
 - **Overlapping foods**: where foods overlap, masks may merge, affecting 
   both classification and portion estimates
+- Model weights are not included in this repo as they exceed GitHub's
+  file size limit. Run the training notebook on Kaggle with GPU T4 x2
+  to reproduce them.
 
 ## Setup & Running
 
