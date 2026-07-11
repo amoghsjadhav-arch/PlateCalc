@@ -102,6 +102,9 @@ outlines, then normalizes coordinates to 0-1 range.
 
 This project runs in a Kaggle Notebook with GPU enabled.
 
+Model weights are available as a Kaggle dataset at: https://www.kaggle.com/datasets/amgdotexe/platecalc-weights
+
+For training:
 1. Open the training notebook on Kaggle
 2. Ensure GPU T4 and Internet are enabled under Settings
 3. Add the FoodSeg103 dataset (ggrill/foodseg103) as an input
